@@ -161,8 +161,10 @@ export default function Home() {
       {
         if (!correct.special.length && !guessShip.special.length) {
           colors['specials'] = [["None", 'green']];
+        } else if (!guessShip.special.length) {
+          colors['specials'] = [["None", 'gray']];
         } else {
-          for (const special of correct.special) {
+          for (const special of ["", ...correct.special]) {
             if (guessShip.special.includes(special)) {
               colors['specials'].push([special, 'green']);
             } else {
@@ -174,7 +176,7 @@ export default function Home() {
                   }
                 }
 
-                if (!colors['specials'].find(([s]) => s === guessSpecial)) {
+                if (!colors['specials'].find(([s]) => s === guessSpecial) && !correct.special.includes(guessSpecial)) {
                   colors['specials'].push([guessSpecial, 'gray']);
                 }
               }
@@ -196,6 +198,10 @@ export default function Home() {
 
         if (len === 0) {
           colors['tank'] = 'green';
+
+          if (guessShip.tank.length > correctTank.length) {
+            colors['tank'] = 'orange';
+          }
         } else if (len === 1) {
           colors['tank'] = 'yellow';
         } else {
