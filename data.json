@@ -1,0 +1,2690 @@
+[
+    {
+        "name": "Impairor",
+        "class": "Corvette",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Executioner",
+        "class": "Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Tackle"
+    },
+    {
+        "name": "Inquisitor",
+        "class": "Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Tormentor",
+        "class": "Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Crucifier",
+        "class": "Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Tracking disruption, guidance disruption"
+    },
+    {
+        "name": "Punisher",
+        "class": "Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Magnate",
+        "class": "Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Exploration, salvaging"
+    },
+    {
+        "name": "Imperial Navy Slicer",
+        "class": "Navy Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Crucifier Navy Issue",
+        "class": "Navy Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Tracking disruption, guidance disruption"
+    },
+    {
+        "name": "Magnate Navy Issue",
+        "class": "Navy Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Exploration"
+    },
+    {
+        "name": "Vengeance",
+        "class": "Assault Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Launcher",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Retribution",
+        "class": "Assault Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Anathema",
+        "class": "Covert Ops",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Exploration, cloaking, cyno"
+    },
+    {
+        "name": "Purifier",
+        "class": "Covert Ops",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Launcher",
+        "special": "Cloaking, cyno, bombs"
+    },
+    {
+        "name": "Sentinel",
+        "class": "Electronic Attack Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Tracking disruption, guidance disruption, neutralization"
+    },
+    {
+        "name": "Crusader",
+        "class": "Interceptor",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Tackle"
+    },
+    {
+        "name": "Malediction",
+        "class": "Interceptor",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Launcher",
+        "special": "Tackle"
+    },
+    {
+        "name": "Deacon",
+        "class": "Logistics Frigate",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Coercer",
+        "class": "Destroyer",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Dragoon",
+        "class": "Destroyer",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret, launcher, drones",
+        "special": "Neutralization"
+    },
+    {
+        "name": "Coercer Navy Issue",
+        "class": "Navy Destroyer",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Neutralization"
+    },
+    {
+        "name": "Pontifex",
+        "class": "Command Destroyer",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret, launcher, drones",
+        "special": "MJFG, command bursts"
+    },
+    {
+        "name": "Heretic",
+        "class": "Interdictor",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Launcher",
+        "special": "Bubbles"
+    },
+    {
+        "name": "Confessor",
+        "class": "Tactical Destroyer",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Modes"
+    },
+    {
+        "name": "Arbitrator",
+        "class": "Cruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Drones",
+        "special": "Tracking disruption, guidance disruption"
+    },
+    {
+        "name": "Augoror",
+        "class": "Cruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Omen",
+        "class": "Cruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Maller",
+        "class": "Cruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Augoror Navy Issue",
+        "class": "Navy Cruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Omen Navy Issue",
+        "class": "Navy Cruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Zealot",
+        "class": "Heavy Assault Cruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Sacrilege",
+        "class": "Heavy Assault Cruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Launcher",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Devoter",
+        "class": "Heavy Interdiction Cruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "WDFG"
+    },
+    {
+        "name": "Guardian",
+        "class": "Logistics Cruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Curse",
+        "class": "Recon Ship",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Drones",
+        "special": "Neutralization, invisibility"
+    },
+    {
+        "name": "Pilgrim",
+        "class": "Recon Ship",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Drones",
+        "special": "Tracking disruption, guidance disruption, neutralization, cloaking, cyno"
+    },
+    {
+        "name": "Legion",
+        "class": "Strategic Cruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret, launcher",
+        "special": "Neutralization, logi, cloaking, command bursts"
+    },
+    {
+        "name": "Prophecy",
+        "class": "Battlecruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Drones",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Harbinger",
+        "class": "Battlecruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Oracle",
+        "class": "Battlecruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Harbinger Navy Issue",
+        "class": "Navy Battlecruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Prophecy Navy Issue",
+        "class": "Navy Battlecruiser",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Damnation",
+        "class": "Command Ship",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Launcher",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Absolution",
+        "class": "Command Ship",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Armageddon",
+        "class": "Battleship",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "Neutralization"
+    },
+    {
+        "name": "Apocalypse",
+        "class": "Battleship",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Abaddon",
+        "class": "Battleship",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Apocalypse Navy Issue",
+        "class": "Navy Battleship",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Armageddon Navy Issue",
+        "class": "Navy Battleship",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Launcher, drones",
+        "special": "None"
+    },
+    {
+        "name": "Redeemer",
+        "class": "Black Ops",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Neutralization, cyno"
+    },
+    {
+        "name": "Paladin",
+        "class": "Marauder",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Bastion"
+    },
+    {
+        "name": "Archon",
+        "class": "Carrier",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Fighters",
+        "special": "Capital, MJD, MJFG, networked sensor array, command bursts"
+    },
+    {
+        "name": "Aeon",
+        "class": "Supercarrier",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Fighters",
+        "special": "Capital, networked sensor array, burst projector, command bursts, weapon disruption, guidance disruption"
+    },
+    {
+        "name": "Revelation",
+        "class": "Dreadnought",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Capital, siege"
+    },
+    {
+        "name": "Revelation Navy Issue",
+        "class": "Navy Dreadnought",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Capital, siege, neutralization"
+    },
+    {
+        "name": "Bane",
+        "class": "Lancer Dreadnought",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Launcher",
+        "special": "Capital, siege, lance"
+    },
+    {
+        "name": "Apostle",
+        "class": "Force Auxiliary",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Capital, triage, logi, command bursts"
+    },
+    {
+        "name": "Avatar",
+        "class": "Titan",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Capital, doomsday, portal generator, clone bay, command bursts"
+    },
+    {
+        "name": "Providence",
+        "class": "Freighter",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Ark",
+        "class": "Jump Freighter",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Cyno"
+    },
+    {
+        "name": "Bestower",
+        "class": "Hauler",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Sigil",
+        "class": "Hauler",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Prorator",
+        "class": "Transport Ship",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Cloaking, cyno"
+    },
+    {
+        "name": "Impel",
+        "class": "Transport Ship",
+        "faction": "Amarr",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Ibis",
+        "class": "Corvette",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret, launcher",
+        "special": "None"
+    },
+    {
+        "name": "Condor",
+        "class": "Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Tackle"
+    },
+    {
+        "name": "Bantam",
+        "class": "Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Kestrel",
+        "class": "Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Griffin",
+        "class": "Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "ECM"
+    },
+    {
+        "name": "Merlin",
+        "class": "Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Heron",
+        "class": "Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Exploration, salvaging"
+    },
+    {
+        "name": "Caldari Navy Hookbill",
+        "class": "Navy Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Griffin Navy Issue",
+        "class": "Navy Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "ECM"
+    },
+    {
+        "name": "Heron Navy Issue",
+        "class": "Navy Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Exploration"
+    },
+    {
+        "name": "Hawk",
+        "class": "Assault Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Harpy",
+        "class": "Assault Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Manticore",
+        "class": "Covert Ops",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Cloaking, cyno, bombs"
+    },
+    {
+        "name": "Buzzard",
+        "class": "Covert Ops",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Exploration, cloaking, cyno"
+    },
+    {
+        "name": "Kitsune",
+        "class": "Electronic Attack Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "ECM"
+    },
+    {
+        "name": "Crow",
+        "class": "Interceptor",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Tackle"
+    },
+    {
+        "name": "Raptor",
+        "class": "Interceptor",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Tackle"
+    },
+    {
+        "name": "Kirin",
+        "class": "Logistics Frigate",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Cormorant",
+        "class": "Destroyer",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Corax",
+        "class": "Destroyer",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Cormorant Navy Issue",
+        "class": "Navy Destroyer",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Stork",
+        "class": "Command Destroyer",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "MJFG, command bursts"
+    },
+    {
+        "name": "Flycatcher",
+        "class": "Interdictor",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Bubbles"
+    },
+    {
+        "name": "Jackdaw",
+        "class": "Tactical Destroyer",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Modes"
+    },
+    {
+        "name": "Blackbird",
+        "class": "Cruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "ECM"
+    },
+    {
+        "name": "Osprey",
+        "class": "Cruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Caracal",
+        "class": "Cruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Moa",
+        "class": "Cruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Caracal Navy Issue",
+        "class": "Navy Cruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Osprey Navy Issue",
+        "class": "Navy Cruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Eagle",
+        "class": "Heavy Assault Cruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Cerberus",
+        "class": "Heavy Assault Cruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Onyx",
+        "class": "Heavy Interdiction Cruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "WDFG"
+    },
+    {
+        "name": "Basilisk",
+        "class": "Logistics Cruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Falcon",
+        "class": "Recon Ship",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "ECM, cyno, cloaking"
+    },
+    {
+        "name": "Rook",
+        "class": "Recon Ship",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "ECM, invisibility"
+    },
+    {
+        "name": "Tengu",
+        "class": "Strategic Cruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher, turret",
+        "special": "ECM, cloaking, logi, command bursts"
+    },
+    {
+        "name": "Ferox",
+        "class": "Battlecruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Drake",
+        "class": "Battlecruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Naga",
+        "class": "Battlecruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Drake Navy Issue",
+        "class": "Battlecruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Ferox Navy Issue",
+        "class": "Battlecruiser",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Vulture",
+        "class": "Command Ship",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Nighthawk",
+        "class": "Command Ship",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Scorpion",
+        "class": "Battleship",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "ECM"
+    },
+    {
+        "name": "Raven",
+        "class": "Battleship",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Rokh",
+        "class": "Battleship",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Scorpion Navy Issue",
+        "class": "Battleship",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Raven Navy Issue",
+        "class": "Battleship",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Widow",
+        "class": "Black Ops",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "ECM, cyno"
+    },
+    {
+        "name": "Golem",
+        "class": "Marauder",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Bastion"
+    },
+    {
+        "name": "Chimera",
+        "class": "Carrier",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Fighters",
+        "special": "Capital, MJD, MJFG, networked sensor array, command bursts"
+    },
+    {
+        "name": "Wyvern",
+        "class": "Supercarrier",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Fighters",
+        "special": "Capital, networked sensor array, burst projector, command bursts, ECM"
+    },
+    {
+        "name": "Phoenix",
+        "class": "Dreadnought",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Capital, siege"
+    },
+    {
+        "name": "Phoenix Navy Issue",
+        "class": "Navy Dreadnought",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Capital, siege, target painter"
+    },
+    {
+        "name": "Karura",
+        "class": "Lancer Dreadnought",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Capital, siege, lance"
+    },
+    {
+        "name": "Minokawa",
+        "class": "Force Auxiliary",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Capital, triage, logi, command bursts"
+    },
+    {
+        "name": "Leviathan",
+        "class": "Titan",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Capital, doomsday, portal generator, clone bay, command bursts"
+    },
+    {
+        "name": "Charon",
+        "class": "Freighter",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Rhea",
+        "class": "Jump Freighter",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Cyno"
+    },
+    {
+        "name": "Badger",
+        "class": "Hauler",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Tayra",
+        "class": "Hauler",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Crane",
+        "class": "Transport Ship",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Cloaking, cyno"
+    },
+    {
+        "name": "Bustard",
+        "class": "Transport Ship",
+        "faction": "Caldari",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Velator",
+        "class": "Corvette",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "None"
+    },
+    {
+        "name": "Atron",
+        "class": "Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Tackle"
+    },
+    {
+        "name": "Navitas",
+        "class": "Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Logi"
+    },
+    {
+        "name": "Tristan",
+        "class": "Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "None"
+    },
+    {
+        "name": "Maulus",
+        "class": "Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Damps"
+    },
+    {
+        "name": "Incursus",
+        "class": "Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Imicus",
+        "class": "Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Exploration, salvaging"
+    },
+    {
+        "name": "Federation Navy Comet",
+        "class": "Navy Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Maulus Navy Issue",
+        "class": "Navy Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "Tackle"
+    },
+    {
+        "name": "Imicus Navy Issue",
+        "class": "Navy Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Exploration"
+    },
+    {
+        "name": "Ishkur",
+        "class": "Assault Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Enyo",
+        "class": "Assault Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Nemesis",
+        "class": "Covert Ops",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Launcher",
+        "special": "Cloaking, cyno, bombs"
+    },
+    {
+        "name": "Helios",
+        "class": "Covert Ops",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Exploration, cloaking, cyno"
+    },
+    {
+        "name": "Keres",
+        "class": "Electronic Attack Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Damps, tackle"
+    },
+    {
+        "name": "Taranis",
+        "class": "Interceptor",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Tackle"
+    },
+    {
+        "name": "Ares",
+        "class": "Interceptor",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Tackle"
+    },
+    {
+        "name": "Thalia",
+        "class": "Logistics Frigate",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Catalyst",
+        "class": "Destroyer",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Algos",
+        "class": "Destroyer",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "None"
+    },
+    {
+        "name": "Catalyst Navy Issue",
+        "class": "Navy Destroyer",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Magus",
+        "class": "Command Destroyer",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Drones",
+        "special": "MJFG, command bursts"
+    },
+    {
+        "name": "Eris",
+        "class": "Interdictor",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Bubbles"
+    },
+    {
+        "name": "Hecate",
+        "class": "Tactical Destroyer",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Modes"
+    },
+    {
+        "name": "Celestis",
+        "class": "Cruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Damps"
+    },
+    {
+        "name": "Exequror",
+        "class": "Cruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Thorax",
+        "class": "Cruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Vexor",
+        "class": "Cruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "None"
+    },
+    {
+        "name": "Exequror Navy Issue",
+        "class": "Navy Cruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Vexor Navy Issue",
+        "class": "Cruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "None"
+    },
+    {
+        "name": "Ishtar",
+        "class": "Heavy Assault Cruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Drones",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Deimos",
+        "class": "Heavy Assault Cruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Phobos",
+        "class": "Heavy Interdiction Cruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "WDFG"
+    },
+    {
+        "name": "Oneiros",
+        "class": "Logistics Cruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Arazu",
+        "class": "Recon Ship",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Damps, cloaking, cyno"
+    },
+    {
+        "name": "Lachesis",
+        "class": "Recon Ship",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Damps, tackle"
+    },
+    {
+        "name": "Proteus",
+        "class": "Strategic Cruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "Damps, tackle, cloaking, logi, command bursts"
+    },
+    {
+        "name": "Brutix",
+        "class": "Battlecruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Myrmidon",
+        "class": "Battlecruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Drones",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Talos",
+        "class": "Battlecruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Brutix Navy Issue",
+        "class": "Navy Battlecruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Myrmidon Navy Issue",
+        "class": "Navy Battlecruiser",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Astarte",
+        "class": "Command Ship",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Eos",
+        "class": "Command Ship",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Drones",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Dominix",
+        "class": "Battleship",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Drones",
+        "special": "None"
+    },
+    {
+        "name": "Megathron",
+        "class": "Battleship",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Hyperion",
+        "class": "Battleship",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Megathron Navy Issue",
+        "class": "Navy Battleship",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Dominix Navy Issue",
+        "class": "Navy Battleship",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "None"
+    },
+    {
+        "name": "Sin",
+        "class": "Black Ops",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "Cyno"
+    },
+    {
+        "name": "Kronos",
+        "class": "Marauder",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Bastion"
+    },
+    {
+        "name": "Thanatos",
+        "class": "Carrier",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Fighters",
+        "special": "Capital, MJD, MJFG, networked sensor array, command bursts"
+    },
+    {
+        "name": "Nyx",
+        "class": "Supercarrier",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Fighters",
+        "special": "Capital, networked sensor array, burst projector, command bursts, damps"
+    },
+    {
+        "name": "Moros",
+        "class": "Dreadnought",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Capital, siege"
+    },
+    {
+        "name": "Moros Navy Issue",
+        "class": "Dreadnought",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Capital, siege, tackle"
+    },
+    {
+        "name": "Hubris",
+        "class": "Lancer Dreadnought",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Capital, siege, lance"
+    },
+    {
+        "name": "Ninazu",
+        "class": "Force Auxiliary",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Capital, triage, logi, command bursts"
+    },
+    {
+        "name": "Erebus",
+        "class": "Titan",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Capital, doomsday, portal generator, clone bay, command bursts"
+    },
+    {
+        "name": "Obelisk",
+        "class": "Freighter",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Anshar",
+        "class": "Jump Freighter",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Cyno"
+    },
+    {
+        "name": "Nereus",
+        "class": "Hauler",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Kryos",
+        "class": "Hauler",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Epithal",
+        "class": "Hauler",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Miasmos",
+        "class": "Hauler",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Iteron Mark V",
+        "class": "Hauler",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Viator",
+        "class": "Transport Ship",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Cloaking, cyno"
+    },
+    {
+        "name": "Occator",
+        "class": "Transport Ship",
+        "faction": "Gallente",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Reaper",
+        "class": "Corvette",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Slasher",
+        "class": "Frigate",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Tackle"
+    },
+    {
+        "name": "Burst",
+        "class": "Frigate",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Breacher",
+        "class": "Frigate",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Vigil",
+        "class": "Frigate",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Target painter"
+    },
+    {
+        "name": "Rifter",
+        "class": "Frigate",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Probe",
+        "class": "Frigate",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Exploration, salvaging"
+    },
+    {
+        "name": "Republic Fleet Firetail",
+        "class": "Navy Frigate",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Vigil Fleet Issue",
+        "class": "Navy Frigate",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Webbing"
+    },
+    {
+        "name": "Probe Fleet Issue",
+        "class": "Navy Frigate",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Exploration"
+    },
+    {
+        "name": "Wolf",
+        "class": "Assault Frigate",
+        "faction": "Minmatar",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Jaguar",
+        "class": "Assault Frigate",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Cheetah",
+        "class": "Covert Ops",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Exploration, cloaking, cyno"
+    },
+    {
+        "name": "Hound",
+        "class": "Covert Ops",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Cloaking, cyno, bombs"
+    },
+    {
+        "name": "Hyena",
+        "class": "Electronic Attack Frigate",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Target painter, webbing"
+    },
+    {
+        "name": "Claw",
+        "class": "Interceptor",
+        "faction": "Minmatar",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Tackle"
+    },
+    {
+        "name": "Stiletto",
+        "class": "Interceptor",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Tackle"
+    },
+    {
+        "name": "Scalpel",
+        "class": "Logistics Frigate",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Thrasher",
+        "class": "Destroyer",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Talwar",
+        "class": "Destroyer",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Thrasher Fleet Issue",
+        "class": "Navy Destroyer",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Bifrost",
+        "class": "Command Destroyer",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "MJFG, command bursts"
+    },
+    {
+        "name": "Sabre",
+        "class": "Interdictor",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Bubbles"
+    },
+    {
+        "name": "Svipul",
+        "class": "Tactical Destroyer",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "Modes"
+    },
+    {
+        "name": "Bellicose",
+        "class": "Cruiser",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Target painter"
+    },
+    {
+        "name": "Scythe",
+        "class": "Cruiser",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Stabber",
+        "class": "Cruiser",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Rupture",
+        "class": "Cruiser",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Scythe Fleet Issue",
+        "class": "Navy Cruiser",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret, launcher",
+        "special": "None"
+    },
+    {
+        "name": "Stabber Fleet Issue",
+        "class": "Navy Cruiser",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Vagabond",
+        "class": "Heavy Assault Cruiser",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Muninn",
+        "class": "Heavy Assault Cruiser",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Launcher",
+        "special": "Assault damage control"
+    },
+    {
+        "name": "Broadsword",
+        "class": "Heavy Interdiction Cruiser",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "WDFG"
+    },
+    {
+        "name": "Scimitar",
+        "class": "Logistics Cruiser",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Logi"
+    },
+    {
+        "name": "Huginn",
+        "class": "Recon Ship",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "Target painter, webbing, invisibility"
+    },
+    {
+        "name": "Rapier",
+        "class": "Recon Ship",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Launcher",
+        "special": "Target painter, webbing, cloaking, cyno"
+    },
+    {
+        "name": "Loki",
+        "class": "Strategic Cruiser",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Turret, launcher",
+        "special": "Webbing, logi, cloaking, command bursts"
+    },
+    {
+        "name": "Cyclone",
+        "class": "Battlecruiser",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Hurricane",
+        "class": "Battlecruiser",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Tornado",
+        "class": "Battlecruiser",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Hurricane Fleet Issue",
+        "class": "Navy Battlecruiser",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Cyclone Fleet Issue",
+        "class": "Navy Battlecruiser",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Claymore",
+        "class": "Command Ship",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Sleipnir",
+        "class": "Command Ship",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Typhoon",
+        "class": "Battleship",
+        "faction": "Minmatar",
+        "tank": "Armor",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Tempest",
+        "class": "Battleship",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Maelstrom",
+        "class": "Battleship",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Tempest Fleet Issue",
+        "class": "Navy Battleship",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Typhoon Fleet Issue",
+        "class": "Navy Battleship",
+        "faction": "Minmatar",
+        "tank": "Armor",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Panther",
+        "class": "Black Ops",
+        "faction": "Minmatar",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Cyno"
+    },
+    {
+        "name": "Vargur",
+        "class": "Marauder",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Bastion"
+    },
+    {
+        "name": "Nidhoggur",
+        "class": "Carrier",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Fighters",
+        "special": "Capital, MJD, MJFG, networked sensor array, command bursts"
+    },
+    {
+        "name": "Hel",
+        "class": "Supercarrier",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Fighters",
+        "special": "Capital, networked sensor array, burst projectors, target painter, command bursts"
+    },
+    {
+        "name": "Naglfar",
+        "class": "Dreadnought",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Capital, siege"
+    },
+    {
+        "name": "Naglfar Fleet Issue",
+        "class": "Navy Dreadnought",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "Capital, siege, webbing"
+    },
+    {
+        "name": "Valravn",
+        "class": "Lancer Dreadnought",
+        "faction": "Minmatar",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "Capital, siege, lance"
+    },
+    {
+        "name": "Lif",
+        "class": "Force Auxiliary",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Capital, triage, logi, command bursts"
+    },
+    {
+        "name": "Ragnarok",
+        "class": "Titan",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "Capital, doomsday, portal generator, clone bay, command bursts"
+    },
+    {
+        "name": "Fenrir",
+        "class": "Freighter",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Nomad",
+        "class": "Jump Freighter",
+        "faction": "Minmatar",
+        "tank": "Shield ",
+        "weapon": "None",
+        "special": "Cyno"
+    },
+    {
+        "name": "Hoarder",
+        "class": "Hauler",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Mammoth",
+        "class": "Hauler",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Wreathe",
+        "class": "Hauler",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Mastodon",
+        "class": "Transport Ship",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Prowler",
+        "class": "Transport Ship",
+        "faction": "Minmatar",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Cloaking, cyno"
+    },
+    {
+        "name": "Venture",
+        "class": "Frigate",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Mining"
+    },
+    {
+        "name": "Prospect",
+        "class": "Expedition Frigate",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Mining, cloaking, cyno"
+    },
+    {
+        "name": "Endurance",
+        "class": "Expedition Frigate",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Mining"
+    },
+    {
+        "name": "Covetor",
+        "class": "Mining Barge",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Mining"
+    },
+    {
+        "name": "Retriever",
+        "class": "Mining Barge",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Mining"
+    },
+    {
+        "name": "Procurer",
+        "class": "Mining Barge",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "Drones",
+        "special": "Mining"
+    },
+    {
+        "name": "Hulk",
+        "class": "Exhumer",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Mining"
+    },
+    {
+        "name": "Mackinaw",
+        "class": "Exhumer",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Mining"
+    },
+    {
+        "name": "Skiff",
+        "class": "Exhumer",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "Drones",
+        "special": "Mining"
+    },
+    {
+        "name": "Noctis",
+        "class": "Hauler",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Salvaging"
+    },
+    {
+        "name": "Porpoise",
+        "class": "Industrial Command Ship",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "Drones",
+        "special": "Mining, industrial core, command bursts"
+    },
+    {
+        "name": "Orca",
+        "class": "Industrial Command Ship",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "Drones",
+        "special": "Mining, industrial core, command bursts"
+    },
+    {
+        "name": "Bowhead",
+        "class": "Freighter",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "None"
+    },
+    {
+        "name": "Rorqual",
+        "class": "Capital Industrial Ship",
+        "faction": "ORE",
+        "tank": "Shield",
+        "weapon": "Drones",
+        "special": "Capital, mining, industrial core, command bursts, PANIC"
+    },
+    {
+        "name": "Dramiel",
+        "class": "Pirate Frigate",
+        "faction": "Angel Cartel",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Mekubal",
+        "class": "Pirate Destroyer",
+        "faction": "Angel Cartel",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Cynabal",
+        "class": "Pirate Cruiser",
+        "faction": "Angel Cartel",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Khizriel",
+        "class": "Pirate Battlecruiser",
+        "faction": "Angel Cartel",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Machariel",
+        "class": "Pirate Battleship",
+        "faction": "Angel Cartel",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Azariel",
+        "class": "Pirate Titan",
+        "faction": "Angel Cartel",
+        "tank": "Armor, shield",
+        "weapon": "Turret",
+        "special": "Capital, doomsday, portal generator, clone bay, command bursts"
+    },
+    {
+        "name": "Cruor",
+        "class": "Pirate Frigate",
+        "faction": "Blood Raiders",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Neutralization, webbing"
+    },
+    {
+        "name": "Ashimmu",
+        "class": "Pirate Cruiser",
+        "faction": "Blood Raiders",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Neutralization, webbing"
+    },
+    {
+        "name": "Bhaalgorn",
+        "class": "Pirate Battleship",
+        "faction": "Blood Raiders",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Neutralization, webbing"
+    },
+    {
+        "name": "Chemosh",
+        "class": "Pirate Dreadnought",
+        "faction": "Blood Raiders",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Capital, siege, neutralization, webbing"
+    },
+    {
+        "name": "Dagon",
+        "class": "Pirate Force Auxiliary",
+        "faction": "Blood Raiders",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Capital, triage, logi, command bursts, neutralization"
+    },
+    {
+        "name": "Molok",
+        "class": "Pirate Titan",
+        "faction": "Blood Raiders",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Capital, doomsday, portal generator, clone bay, command bursts, neutralization, webbing"
+    },
+    {
+        "name": "Worm",
+        "class": "Pirate Frigate",
+        "faction": "Guristas",
+        "tank": "Shield",
+        "weapon": "Launcher, drones",
+        "special": "None"
+    },
+    {
+        "name": "Mamba",
+        "class": "Pirate Destroyer",
+        "faction": "Guristas",
+        "tank": "Shield",
+        "weapon": "Launcher, drones",
+        "special": "None"
+    },
+    {
+        "name": "Gila",
+        "class": "Pirate Cruiser",
+        "faction": "Guristas",
+        "tank": "Shield",
+        "weapon": "Launcher, drones",
+        "special": "None"
+    },
+    {
+        "name": "Alligator",
+        "class": "Pirate Battlecruiser",
+        "faction": "Guristas",
+        "tank": "Shield",
+        "weapon": "Launcher, drones",
+        "special": "Command bursts"
+    },
+    {
+        "name": "Rattlesnake",
+        "class": "Pirate Battleship",
+        "faction": "Guristas",
+        "tank": "Shield",
+        "weapon": "Launcher, drones",
+        "special": "None"
+    },
+    {
+        "name": "Caiman",
+        "class": "Pirate Dreadnought",
+        "faction": "Guristas",
+        "tank": "Shield",
+        "weapon": "Launcher, fighters",
+        "special": "Capital, siege"
+    },
+    {
+        "name": "Loggerhead",
+        "class": "Pirate Force Auxiliary",
+        "faction": "Guristas",
+        "tank": "Shield",
+        "weapon": "None",
+        "special": "Capital, triage, logi, command bursts"
+    },
+    {
+        "name": "Komodo",
+        "class": "Pirate Titan",
+        "faction": "Guristas",
+        "tank": "Shield",
+        "weapon": "Launcher, fighters",
+        "special": "Capital, doomsday, portal generator, clone bay, command bursts"
+    },
+    {
+        "name": "Garmur",
+        "class": "Pirate Frigate",
+        "faction": "Mordu's Legion",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Tackle"
+    },
+    {
+        "name": "Orthrus",
+        "class": "Pirate Cruiser",
+        "faction": "Mordu's Legion",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Tackle"
+    },
+    {
+        "name": "Barghest",
+        "class": "Pirate Battleship",
+        "faction": "Mordu's Legion",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Tackle"
+    },
+    {
+        "name": "Succubus",
+        "class": "Pirate Frigate",
+        "faction": "Sansha's Nation",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Phantasm",
+        "class": "Pirate Cruiser",
+        "faction": "Sansha's Nation",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Nightmare",
+        "class": "Pirate Battleship",
+        "faction": "Sansha's Nation",
+        "tank": "Shield",
+        "weapon": "Turret",
+        "special": "None"
+    },
+    {
+        "name": "Revenant",
+        "class": "Pirate Supercarrier",
+        "faction": "Sansha's Nation",
+        "tank": "Shield",
+        "weapon": "Fighters",
+        "special": "Capital, networked sensor array, burst projector, command bursts"
+    },
+    {
+        "name": "Daredevil",
+        "class": "Pirate Frigate",
+        "faction": "Serpentis",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Webbing"
+    },
+    {
+        "name": "Vigilant",
+        "class": "Pirate Cruiser",
+        "faction": "Serpentis",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Webbing"
+    },
+    {
+        "name": "Vindicator",
+        "class": "Pirate Battleship",
+        "faction": "Serpentis",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Webbing"
+    },
+    {
+        "name": "Vehement",
+        "class": "Pirate Battleship",
+        "faction": "Serpentis",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Capital, siege, webbing"
+    },
+    {
+        "name": "Vendetta",
+        "class": "Pirate Supercarrier",
+        "faction": "Serpentis",
+        "tank": "Armor",
+        "weapon": "Fighters",
+        "special": "Capital, networked sensor array, burst projector, command bursts, webbing"
+    },
+    {
+        "name": "Vanquisher",
+        "class": "Pirate Titan",
+        "faction": "Serpentis",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Capital, doomsday, portal generator, clone bay, command bursts, webbing"
+    },
+    {
+        "name": "Astero",
+        "class": "Pirate Frigate",
+        "faction": "Sisters Of Eve",
+        "tank": "Armor",
+        "weapon": "Drones",
+        "special": "Exploration, cloaking"
+    },
+    {
+        "name": "Stratios",
+        "class": "Pirate Cruiser",
+        "faction": "Sisters Of Eve",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "Exploration, cloaking"
+    },
+    {
+        "name": "Nestor",
+        "class": "Pirate Battleship",
+        "faction": "Sisters Of Eve",
+        "tank": "Armor",
+        "weapon": "Turret, drones",
+        "special": "Exploration, logi"
+    },
+    {
+        "name": "Pacifier",
+        "class": "Covert Ops",
+        "faction": "CONCORD",
+        "tank": "Armor, shield",
+        "weapon": "Turret, launcher",
+        "special": "Exploration, cloaking, cyno"
+    },
+    {
+        "name": "Monitor",
+        "class": "Flag Cruiser",
+        "faction": "CONCORD",
+        "tank": "Armor, shield",
+        "weapon": "None",
+        "special": "Target painter"
+    },
+    {
+        "name": "Enforcer",
+        "class": "Recon Ship",
+        "faction": "CONCORD",
+        "tank": "Armor, shield",
+        "weapon": "Turret, launcher",
+        "special": "Cloaking, cyno, tackle, webbing"
+    },
+    {
+        "name": "Marshal",
+        "class": "Black Ops",
+        "faction": "CONCORD",
+        "tank": "Armor, shield",
+        "weapon": "Turret, launcher",
+        "special": "Cyno, portal generator, tackle, webbing"
+    },
+    {
+        "name": "Skybreaker",
+        "class": "Frigate",
+        "faction": "EDENCOM",
+        "tank": "Shield",
+        "weapon": "Projector",
+        "special": "None"
+    },
+    {
+        "name": "Stormbringer",
+        "class": "Cruiser",
+        "faction": "EDENCOM",
+        "tank": "Shield",
+        "weapon": "Projector",
+        "special": "None"
+    },
+    {
+        "name": "Thunderchild",
+        "class": "Battleship",
+        "faction": "EDENCOM",
+        "tank": "Shield",
+        "weapon": "Projector",
+        "special": "None"
+    },
+    {
+        "name": "Metamorphosis",
+        "class": "Frigate",
+        "faction": "SOCT",
+        "tank": "Armor, shield",
+        "weapon": "Turret, launcher, drones",
+        "special": "Exploration, cloaking"
+    },
+    {
+        "name": "Sunesis",
+        "class": "Destroyer",
+        "faction": "SOCT",
+        "tank": "Armor, shield",
+        "weapon": "Turret, launcher, drones",
+        "special": "Exploration"
+    },
+    {
+        "name": "Gnosis",
+        "class": "Battlecruiser",
+        "faction": "SOCT",
+        "tank": "Armor, shield",
+        "weapon": "Turret, launcher, drones",
+        "special": "Exploration, command bursts"
+    },
+    {
+        "name": "Praxis",
+        "class": "Battleship",
+        "faction": "SOCT",
+        "tank": "Armor, shield",
+        "weapon": "Turret, launcher, drones",
+        "special": "Exploration"
+    },
+    {
+        "name": "Damavik",
+        "class": "Frigate",
+        "faction": "Triglavian",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Logi, neutralization"
+    },
+    {
+        "name": "Nergal",
+        "class": "Assault Frigate",
+        "faction": "Triglavian",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Assault damage control, logi, neutralization"
+    },
+    {
+        "name": "Kikimora",
+        "class": "Destroyer",
+        "faction": "Triglavian",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Logi, neutralization"
+    },
+    {
+        "name": "Draugur",
+        "class": "Command Destroyer",
+        "faction": "Triglavian",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "MJFG, command bursts, logi, neutralization"
+    },
+    {
+        "name": "Rodiva",
+        "class": "Cruiser",
+        "faction": "Triglavian",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Logi, neutralization"
+    },
+    {
+        "name": "Vedmak",
+        "class": "Cruiser",
+        "faction": "Triglavian",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Logi, neutralization"
+    },
+    {
+        "name": "Ikitursa",
+        "class": "Heavy Assault Cruiser",
+        "faction": "Triglavian",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Assault damage control, logi, neutralization"
+    },
+    {
+        "name": "Zarmazd",
+        "class": "Logistics Cruiser",
+        "faction": "Triglavian",
+        "tank": "Armor",
+        "weapon": "None",
+        "special": "Logi, neutralization"
+    },
+    {
+        "name": "Drekavac",
+        "class": "Battlecruiser",
+        "faction": "Triglavian",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Logi, neutralization"
+    },
+    {
+        "name": "Leshak",
+        "class": "Battleship",
+        "faction": "Triglavian",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Logi, neutralization"
+    },
+    {
+        "name": "Zirnitra",
+        "class": "Dreadnought",
+        "faction": "Triglavian",
+        "tank": "Armor",
+        "weapon": "Turret",
+        "special": "Capital, siege, logi, neutralization"
+    },
+    {
+        "name": "Avalanche",
+        "class": "Freighter",
+        "faction": "Upwell",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Squall",
+        "class": "Hauler",
+        "faction": "Upwell",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    },
+    {
+        "name": "Deluge",
+        "class": "Transport Ship",
+        "faction": "Upwell",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "Cloaking, cyno"
+    },
+    {
+        "name": "Torrent",
+        "class": "Transport Ship",
+        "faction": "Upwell",
+        "tank": "Shield",
+        "weapon": "Launcher",
+        "special": "None"
+    }
+]
