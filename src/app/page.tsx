@@ -258,7 +258,7 @@ export default function Home() {
             </div>
             <div className="weapon-over guess-internal">
             <Image className="weapon-image" src="/favicon.ico" alt="ship class image" width="100" height="100" />
-              <div className="weapon" style={{color: 'grey'}}>Weapon: Launcher</div>
+              <div className="weapon" style={{color: colors.weapon}}>Weapon: {shipData.weapon.join(', ')}</div>
             </div>
             <div className="specials guess-internal">
               <h3 className="specials-head">Specials</h3>
