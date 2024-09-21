@@ -274,7 +274,7 @@ export default function Home() {
     }));
   }, [guesses, ships]);
 
-  const ship = 'thrasher';
+  const ship = 'sin';
 
   function submit(e: SubmitEvent) {
     e.preventDefault();
