@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import React from "react";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,16 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <Script id="polyfill">
+          {
+            `
+              if (!String.prototype.upperFirst)
+                window.String.prototype.upperFirst = function () {
+                  return this.charAt(0).toUpperCase() + this.slice(1);
+                };
+            `
+          }
+        </Script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>

@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
 
-export default nextConfig;
+import { withExpo } from '@expo/next-adapter'
+import { withPlugins } from 'next-compose-plugins'
+import * as ntm from 'next-transpile-modules'
+
+const withTM = ntm([
+  'solito'
+])
+
+export default withPlugins([withTM, [withExpo, { projectRoot: __dirname }]], {
+
+})
