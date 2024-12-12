@@ -198,3 +198,44 @@ form {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .guess-internals {
+        flex-direction: column;
+    }
+
+    .guess-internal {
+        width: 100%;
+    }
+
+    .weapon-image-container {
+        flex-direction: column;
+    }
+
+    .faction {
+        flex-direction: row;
+    }
+
+    .other-internals {
+        flex-direction: column;
+    }
+
+    .image-over {
+        flex: 0;
+        flex-basis: 100px;
+    }
+
+    .main-input input {
+        width: 80%;
+        min-width: 0;
+    }
+
+    .omnibox {
+        width: 100%;
+    }
+
+    .omnibox-entry {
+        width: 100%;
+    }
+    
+}

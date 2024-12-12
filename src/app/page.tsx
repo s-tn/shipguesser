@@ -31,7 +31,8 @@ const classes = {
 
 const command_classes = {
   porpoise: "cruiser",
-  orca: "",
+  orca: "battleship",
+  rorqual: "freighter"
 }
 
 const turrets = {
@@ -79,7 +80,7 @@ export default function Home() {
   const [ guessDisplay, setGuessDisplay ] = useState<any[]>([]);
   const [ Omnibox, setOmnibox ] = useState<any>(<></>);
   
-  let ship = useRef<string>('');
+  let ship = useRef<string>('orca');
 
   useEffect(() => {
     fetch('/final.css').then(res => res.text()).then(buffer => {
@@ -94,7 +95,11 @@ export default function Home() {
 
       for (var i = 0; i < parsed.length; i++) {
         const ship = parsed[i];
-        ship.majorClass = Object.keys(classes).find((key) => (classes as any)[key].includes(ship.class))!;
+        if (ship.class === "industrial command ship") {
+          ship.majorClass = "industrial command ship";
+        } else {
+          ship.majorClass = Object.keys(classes).find((key) => (classes as any)[key].includes(ship.class))!;
+        }
       }
 
       setShips(parsed);
@@ -144,6 +149,15 @@ export default function Home() {
         weapon: '#b3b3b3'
       } as any
 
+      const c: {
+        [key: string]: '#b3b3b3' | '#ffc04d' | '#ecec52' | '#00df00';
+      } = {
+        grey: '#b3b3b3',
+        orange: '#ffc04d',
+        yellow: '#ecec52',
+        green: '#00df00'
+      }
+
       /* Class */
       { 
         function getClass(type: string) {
@@ -155,19 +169,32 @@ export default function Home() {
 
           return null;
         }
-        
-        const classIndex = classNames.indexOf(getClass(correct.class) || '');
-        const guessClassIndex = classNames.indexOf(getClass(guessShip.class) || '');
-        const classDiff = Math.abs(classIndex - guessClassIndex);
-        if (classDiff == 1) {
-          colors['class'] = '#ffc04d';
-        }
 
-        if (classDiff == 0) {
+        if (ship.current in command_classes) {
           if (correct.class === guessShip.class) {
-            colors['class'] = '#00df00';
+            colors['class'] = c.orange;
+            if (command_classes[ship.current as keyof typeof command_classes] === command_classes[guessShip.name as keyof typeof command_classes]) {
+              colors['class'] = c.orange;
+            }
           } else {
-            colors['class'] = '#ecec52'
+            if (command_classes[ship.current as keyof typeof command_classes] === getClass(guessShip.class)) {
+              colors['class'] = c.yellow;
+            }
+          }
+        } else {
+          const classIndex = classNames.indexOf(getClass(correct.class) || '');
+          const guessClassIndex = classNames.indexOf(getClass(guessShip.class) || '');
+          const classDiff = Math.abs(classIndex - guessClassIndex);
+          if (classDiff == 1) {
+            colors['class'] = c.yellow;
+          }
+
+          if (classDiff == 0) {
+            if (correct.class === guessShip.class) {
+              colors['class'] = c.green;
+            } else {
+              colors['class'] = c.orange;
+            }
           }
         }
       }
@@ -175,39 +202,63 @@ export default function Home() {
       /* Faction */
       {
         if (correct.faction === guessShip.faction) {
-          colors['faction'] = '#00df00';
+          colors['faction'] = c.green;
         } else if (pirates[correct.faction]?.includes(guessShip.faction)) {
-          colors['faction'] = '#ecec52';
+          colors['faction'] = c.yellow;
         } else if (pirates[guessShip.faction]?.includes(correct.faction)) {
-          colors['faction'] = '#ecec52';
+          colors['faction'] = c.yellow;
         }
       }
 
       /* Special */
       {
         if (!correct.special.length && !guessShip.special.length) {
-          colors['specials'] = [["None", '#00df00']];
+          colors['specials'] = [["None", c.green]];
         } else if (!guessShip.special.length) {
-          colors['specials'] = [["None", '#b3b3b3']];
+          colors['specials'] = [["None", c.grey]];
         } else {
-          for (const special of ["", ...correct.special]) {
-            if (guessShip.special.includes(special)) {
-              colors['specials'].push([special, '#00df00']);
+          const temp = [];
+          for (const special of guessShip.special) {
+            if (correct.special.includes(special)) {
+              colors['specials'].push([special, c.green]);
             } else {
               for (const guessSpecial of guessShip.special) {
                 for (const key in specials) {
                   if (specials[key].includes(special) && specials[key].includes(guessSpecial)) {
-                    colors['specials'].push([special, '#ecec52']);
+                    colors['specials'].push([special, c.yellow]);
                     break;
                   }
                 }
 
                 if (!colors['specials'].find(([s]) => s === guessSpecial) && !correct.special.includes(guessSpecial)) {
-                  colors['specials'].push([guessSpecial, '#b3b3b3']);
+                  temp.push([guessSpecial, c.grey]);
                 }
               }
             }
           }
+          for (const entry of temp) {
+            if (!colors['specials'].find(([s]) => s === entry[0])) {
+              colors['specials'].push(entry as typeof colors['specials'][0]);
+            }
+          }
+          /*for (const special of ["", ...correct.special]) {
+            if (guessShip.special.includes(special)) {
+              colors['specials'].push([special, c.green]);
+            } else {
+              for (const guessSpecial of guessShip.special) {
+                for (const key in specials) {
+                  if (specials[key].includes(special) && specials[key].includes(guessSpecial)) {
+                    colors['specials'].push([special, c.yellow]);
+                    break;
+                  }
+                }
+
+                if (!colors['specials'].find(([s]) => s === guessSpecial) && !correct.special.includes(guessSpecial)) {
+                  colors['specials'].push([guessSpecial, c.grey]);
+                }
+              }
+            }
+          }*/
         }
       }
 
@@ -224,15 +275,15 @@ export default function Home() {
         }
 
         if (len === 0) {
-          colors['tank'] = '#00df00';
+          colors['tank'] = c.green;
 
           if (guessShip.tank.length > correctTank.length) {
-            colors['tank'] = '#ffc04d';
+            colors['tank'] = c.orange;
           }
         } else if (len === 1 && len_0 === 2) {
-          colors['tank'] = '#ecec52';
+          colors['tank'] = c.yellow;
         } else {
-          colors['tank'] = '#b3b3b3';
+          colors['tank'] = c.grey;
         }
       }
 
@@ -259,11 +310,11 @@ export default function Home() {
         }
 
         if (category < len) {
-          colors['weapon'] = '#ecec52';
+          colors['weapon'] = c.yellow;
         }
 
         if (JSON.stringify(correctWeapon) === JSON.stringify(guessWeapon)) {
-          colors['weapon'] = '#00df00';
+          colors['weapon'] = c.green;
         }
       }
       
@@ -408,6 +459,7 @@ export default function Home() {
 
     input.value = '';
     document.getElementById('main')!.scrollTo({ top: 0, behavior: 'smooth' });
+    setOmnibox(<></>);
 
     setGuesses([...guesses, guess]);
   }
