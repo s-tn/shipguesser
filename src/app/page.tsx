@@ -352,7 +352,7 @@ export default function Home() {
               }
             })()
           }
-          <h2>{shipData.name.split(' ').map((seg: any) => seg.upperFirst()).join(' ')}</h2>
+          <h2 className="ship-name">{shipData.name.split(' ').map((seg: any) => seg.upperFirst()).join(' ')}</h2>
           <div className="guess-internals">
             <div className="image-over guess-internal">
               <Image className="ship-image" src={`/shipimg/${shipData.name.toLowerCase().split(' ').join('_')}.jpg`} alt="ship image" width="130" height="130" />

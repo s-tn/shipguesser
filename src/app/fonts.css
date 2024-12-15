@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Bank Gothic Regular';
+    src: url("../font/bankgothic/Bank Gothic Light Regular.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Shentox Regular';
+    src: url("../font/shentox/ShentoxTRIAL-Rg.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

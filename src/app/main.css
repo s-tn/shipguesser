@@ -37,6 +37,7 @@
     height: auto;
     border: 2px solid transparent;
     border-radius: 5px;
+    font-family: "Shentox Regular", sans-serif;
 }
 
 .other-over {
@@ -59,6 +60,10 @@
 
 .specials {
     justify-content: flex-start;
+}
+
+.ship-name {
+    font-family: "Bank Gothic Regular", sans-serif;
 }
 
 .ship-image {

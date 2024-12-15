@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "./fonts.css";
 import React from "react";
 import Script from "next/script";
 
