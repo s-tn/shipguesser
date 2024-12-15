@@ -205,6 +205,10 @@ form {
 }
 
 @media screen and (max-width: 600px) {
+    #form-over {
+        padding-top: 30px;
+    }
+
     .guess-internals {
         flex-direction: column;
     }
