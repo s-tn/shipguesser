@@ -186,14 +186,14 @@ export default function Home() {
           const guessClassIndex = classNames.indexOf(getClass(guessShip.class) || '');
           const classDiff = Math.abs(classIndex - guessClassIndex);
           if (classDiff == 1) {
-            colors['class'] = c.yellow;
+            colors['class'] = c.orange;
           }
 
           if (classDiff == 0) {
             if (correct.class === guessShip.class) {
               colors['class'] = c.green;
             } else {
-              colors['class'] = c.orange;
+              colors['class'] = c.yellow;
             }
           }
         }
