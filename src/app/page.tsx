@@ -80,7 +80,7 @@ export default function Home() {
   const [ guessDisplay, setGuessDisplay ] = useState<any[]>([]);
   const [ Omnibox, setOmnibox ] = useState<any>(<></>);
   
-  let ship = useRef<string>('orca');
+  let ship = useRef<string>('');
 
   useEffect(() => {
     fetch('/final.css').then(res => res.text()).then(buffer => {
