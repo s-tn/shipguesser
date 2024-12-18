@@ -10,8 +10,10 @@ export default function Index() {
       <SafeAreaView style={{ flex: 1 }}>
         <WebView
           source={{ uri: /*"http://10.103.114.50:4000"*/"https://shipguesser.space" }}
-          style={{  }}
-          containerStyle={{  }}
+          style={{ backgroundColor: "rgb(24 36 68)" }}
+          containerStyle={{ 
+            backgroundColor: "rgb(24 36 68)"
+           }}
           nativeConfig={{
 
           }}

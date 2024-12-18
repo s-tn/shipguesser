@@ -35,7 +35,7 @@ export default function RootLayout({
           }
         </Script>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className} style={{background: "rgb(24 36 68)"}}>{children}</body>
     </html>
   );
 }
