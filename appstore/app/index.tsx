@@ -9,9 +9,12 @@ export default function Index() {
     <>
       <SafeAreaView style={{ flex: 1 }}>
         <WebView
-          source={{ uri: "https://shipguesser.space" }}
+          source={{ uri: /*"http://10.103.114.50:4000"*/"https://shipguesser.space" }}
           style={{  }}
           containerStyle={{  }}
+          nativeConfig={{
+
+          }}
         />
       </SafeAreaView>
     </>

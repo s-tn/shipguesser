@@ -1,6 +1,7 @@
 {
   "name": "shipguesser",
   "slug": "shipguesser",
+  "icon": "./craig.png",
   "extra": {
     "eas": {
       "projectId": "c73ce0f9-3600-4e05-9fc8-d7f9be08b3c5"
@@ -8,5 +9,8 @@
   },
   "ios": {
     "bundleIdentifier": "com.bryzek.shipguesser"
+  },
+  "android": {
+    "package": "com.bryzek.shipguesser"
   }
 }

@@ -217,48 +217,7 @@ export default function Home() {
         } else if (!guessShip.special.length) {
           colors['specials'] = [["None", c.grey]];
         } else {
-          const temp = [];
-          for (const special of guessShip.special) {
-            if (correct.special.includes(special)) {
-              colors['specials'].push([special, c.green]);
-            } else {
-              for (const guessSpecial of guessShip.special) {
-                for (const key in specials) {
-                  if (specials[key].includes(special) && specials[key].includes(guessSpecial)) {
-                    colors['specials'].push([special, c.yellow]);
-                    break;
-                  }
-                }
-
-                if (!colors['specials'].find(([s]) => s === guessSpecial) && !correct.special.includes(guessSpecial)) {
-                  temp.push([guessSpecial, c.grey]);
-                }
-              }
-            }
-          }
-          for (const entry of temp) {
-            if (!colors['specials'].find(([s]) => s === entry[0])) {
-              colors['specials'].push(entry as typeof colors['specials'][0]);
-            }
-          }
-          /*for (const special of ["", ...correct.special]) {
-            if (guessShip.special.includes(special)) {
-              colors['specials'].push([special, c.green]);
-            } else {
-              for (const guessSpecial of guessShip.special) {
-                for (const key in specials) {
-                  if (specials[key].includes(special) && specials[key].includes(guessSpecial)) {
-                    colors['specials'].push([special, c.yellow]);
-                    break;
-                  }
-                }
-
-                if (!colors['specials'].find(([s]) => s === guessSpecial) && !correct.special.includes(guessSpecial)) {
-                  colors['specials'].push([guessSpecial, c.grey]);
-                }
-              }
-            }
-          }*/
+          
         }
       }
 
