@@ -246,16 +246,12 @@ form {
     }
 
     .main-input input {
-        width: 80%;
+        width: max-content;
         min-width: 0;
     }
 
-    .omnibox {
-        width: 100%;
-    }
-
     .omnibox-entry {
-        width: 100%;
+        width: calc(100% - 20px);
     }
     
 }

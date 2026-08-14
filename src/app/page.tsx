@@ -355,7 +355,7 @@ export default function Home() {
                     })
                   }
                 </div>
-                <div className="weapon" style={{color: colors.weapon}}>Weapon: {shipData.weapon.map((weapon: any) => weapon.split(' ').map((seg: any) => seg.upperFirst()).join(' ')).join(', ')}</div>
+                <div className="weapon" style={{color: colors.weapon}}>Weapon: {shipData.weapon.length ? shipData.weapon.map((weapon: any) => weapon.split(' ').map((seg: any) => seg.upperFirst()).join(' ')).join(', ') : "None"}</div>
               </div>
               <div className="specials guess-internal">
                 <h3 className="specials-head">Specials</h3>
@@ -380,10 +380,13 @@ export default function Home() {
         <div className="omnibox">
           {
             applied.map(entry => (
-              <div key={entry.name} className="omnibox-entry" onClick={() => {
+              <div key={entry.name} className="omnibox-entry" onMouseDown={() => {
                 (e.target as HTMLInputElement).value = entry.name;
                 setOmnibox(<></>);
-                (e.target as HTMLInputElement).focus()
+                window.addEventListener('mouseup', () => {
+                  (e.target as HTMLInputElement).focus()
+                  setOmnibox(<></>);
+                }, {once: true});
               }}>
                 {entry.name}
               </div>
@@ -437,7 +440,10 @@ export default function Home() {
         <div id="form-over">
           <h1>shipguesser</h1>
           <div className="main-input">
-            <input onInput={input as any} />
+            <input onInput={input as any} onFocus={(e: any) => input(e)} onBlur={(e: any) => {
+              setOmnibox(<></>);
+              return true;
+            }} />
             { 
               Omnibox
             }
